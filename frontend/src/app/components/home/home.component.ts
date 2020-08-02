@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from "../../services/DataService/data.service";
 
 @Component({
   selector: 'app-home',
@@ -7,12 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _dataService:DataService) { }
 
   ngOnInit(): void {
   }
 
   onFeedButtonClick() {
     console.log("food");
+    this._dataService.get("feed").subscribe(data => {
+      console.log(data);
+    });
   }
 }
