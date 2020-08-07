@@ -1,4 +1,4 @@
-
+''' wrapper around logging module '''
 import os
 import logging
 

@@ -1,0 +1,21 @@
+2020-08-07 04:29:41,455 - root - INFO - running environment: development
+2020-08-07 04:29:42,923 - root - INFO - running environment: development
+2020-08-07 04:30:07,560 - root - INFO - running environment: development
+2020-08-07 04:30:08,431 - root - INFO - running environment: development
+2020-08-07 04:30:27,001 - root - INFO - running environment: development
+2020-08-07 04:30:27,820 - root - INFO - running environment: development
+2020-08-07 04:31:36,895 - root - INFO - running environment: development
+2020-08-07 04:31:37,645 - root - INFO - running environment: development
+2020-08-07 04:33:52,460 - root - ERROR - 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2020-08-07 04:33:55,086 - root - ERROR - 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2020-08-07 04:33:58,372 - root - ERROR - 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2020-08-07 04:35:43,088 - app.controllers.user - DEBUG - {u'password': u'$2b$12$IxigfVDC9S2BGJ0JbCFeF.zSFkXOTuSUnQ56JFkGAQHNDzvyoEPvS', u'name': u'test', u'email': u'test@test.com'}
+2020-08-07 04:45:26,027 - root - INFO - running environment: development
+2020-08-07 04:45:26,769 - root - INFO - running environment: development
+2020-08-07 04:45:49,276 - root - INFO - running environment: development
+2020-08-07 04:45:50,112 - root - INFO - running environment: development
+2020-08-07 04:46:39,568 - app.controllers.user - DEBUG - {'name': 'test', 'email': 'test@test.com', 'password': b'$2b$12$PixT7atFwzkyem8.SDRHDOZYGD/7KJ8bzYvQQQ8vlfrIeB80qqLKi'}
+2020-08-07 04:47:56,257 - root - INFO - running environment: development
+2020-08-07 04:48:01,889 - root - INFO - running environment: development
+2020-08-07 04:48:02,632 - root - INFO - running environment: development
+2020-08-07 04:48:23,500 - app.controllers.user - DEBUG - {'name': 'test', 'email': 'test@test.com', 'password': b'$2b$12$PixT7atFwzkyem8.SDRHDOZYGD/7KJ8bzYvQQQ8vlfrIeB80qqLKi'}
