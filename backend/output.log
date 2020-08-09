@@ -19,3 +19,4 @@
 2020-08-07 04:48:01,889 - root - INFO - running environment: development
 2020-08-07 04:48:02,632 - root - INFO - running environment: development
 2020-08-07 04:48:23,500 - app.controllers.user - DEBUG - {'name': 'test', 'email': 'test@test.com', 'password': b'$2b$12$PixT7atFwzkyem8.SDRHDOZYGD/7KJ8bzYvQQQ8vlfrIeB80qqLKi'}
+2020-08-07 04:52:04,019 - root - INFO - running environment: development
