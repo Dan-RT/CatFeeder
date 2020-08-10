@@ -19,8 +19,9 @@ export class HomeComponent implements OnInit {
     this._dataService.get("feed").subscribe(data =>
       {
         console.log(data);
+        alert(JSON.stringify(data));
       },
-      error => {
+      () => {
         alert("Error feeding the cat");
       });
   }
