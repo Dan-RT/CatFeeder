@@ -13,7 +13,7 @@ LOG = logger.get_root_logger(
 
 
 @app.route('/task', methods=['GET', 'POST', 'DELETE', 'PATCH'])
-# @jwt_required
+@jwt_required
 def task():
     ''' route read tasks '''
     if request.method == 'GET':

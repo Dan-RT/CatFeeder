@@ -7,6 +7,7 @@ from flask import Flask
 from flask_pymongo import PyMongo
 from flask_jwt_extended import JWTManager
 from flask_bcrypt import Bcrypt
+from flask_cors import CORS
 
 
 class JSONEncoder(json.JSONEncoder):
@@ -26,9 +27,12 @@ class JSONEncoder(json.JSONEncoder):
 
 # create the flask object
 app = Flask(__name__)
+CORS(app)
 app.config['MONGO_URI'] = os.environ.get('DB')
 app.config['JWT_SECRET_KEY'] = os.environ.get('SECRET')
 app.config['JWT_ACCESS_TOKEN_EXPIRES'] = datetime.timedelta(days=1)
+app.config['CORS_HEADERS'] = 'Content-Type'
+
 mongo = PyMongo(app)
 flask_bcrypt = Bcrypt(app)
 jwt = JWTManager(app)
