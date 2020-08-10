@@ -23,6 +23,12 @@ export class AuthenticationService {
     return this.currentUserSubject.value;
   }
 
+  isLoggedIn() {
+    console.log("isLoggedIn");
+    console.log(this.currentUserValue);
+    return (this.currentUserValue != null)
+  }
+
   login(email: string, password: string) {
     return this.http.post<any>(`${environment.apiUrl}/auth`, { email, password })
       .pipe(map(user => {

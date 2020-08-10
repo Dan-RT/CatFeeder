@@ -1,7 +1,8 @@
-
 <mat-toolbar color="primary">
   <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
     <mat-icon>menu</mat-icon>
   </button>
   <h1>Feed Ebony</h1>
+  <span class="example-spacer"></span>
+  <button id="logoutButton" *ngIf="isLoggedIn()" mat-raised-button color="warn" (click)="onLogoutClik()" >Logout</button>
 </mat-toolbar>

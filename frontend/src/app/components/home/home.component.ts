@@ -15,7 +15,6 @@ export class HomeComponent implements OnInit {
   }
 
   onFeedButtonClick() {
-    console.log("food");
     this._dataService.get("feed").subscribe(data =>
       {
         console.log(data);
@@ -24,9 +23,5 @@ export class HomeComponent implements OnInit {
       () => {
         alert("Error feeding the cat");
       });
-  }
-
-  onLogoutClik() {
-    this._authService.logout();
   }
 }
