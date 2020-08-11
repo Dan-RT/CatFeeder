@@ -24,8 +24,6 @@ export class AuthenticationService {
   }
 
   isLoggedIn() {
-    console.log("isLoggedIn");
-    console.log(this.currentUserValue);
     return (this.currentUserValue != null)
   }
 

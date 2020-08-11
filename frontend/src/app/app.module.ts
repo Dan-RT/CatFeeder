@@ -16,6 +16,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ErrorInterceptor } from './_helpers/error-interceptor/error.interceptor';
 import { JwtInterceptor } from './_helpers/jwt-interceptor/jwt.interceptor';
 import { AuthGuard } from './_helpers/auth-guard/auth.guard';
+import { MatTableModule } from '@angular/material/table';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { AuthGuard } from './_helpers/auth-guard/auth.guard';
     MatToolbarModule,
     MatGridListModule,
     MatIconModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatTableModule
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },

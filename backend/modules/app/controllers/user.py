@@ -65,12 +65,13 @@ def refresh():
     }
     return jsonify({'ok': True, 'data': ret}), 200
 
-@app.route('/feed', methods=['GET'])
-@jwt_required
-def feed():
-    if request.method == 'GET':
-        data = {"message": "Cat Fed!"}
-        return jsonify({'ok': True, 'data': data}), 200
+
+#@app.route('/feed', methods=['GET'])
+#@jwt_required
+#def feed():
+#    if request.method == 'GET':
+#        data = {"message": "Cat Fed!"}
+#        return jsonify({'ok': True, 'data': data}), 200
 
 @app.route('/user', methods=['GET', 'DELETE', 'PATCH'])
 @jwt_required
