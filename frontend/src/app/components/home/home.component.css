@@ -1,0 +1,9 @@
+.food-info-container {
+  margin-top: 5vh;
+  height: 400px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+}

@@ -12,6 +12,7 @@ export class DataService {
   constructor(private _httpClient: HttpClient) { }
 
   public get(path:string){
+    console.log("GET request to " + this._server_port + "\/" + path);
     return this._httpClient.get(this._server_port + "/" + path);
   }
 }

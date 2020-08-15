@@ -14,4 +14,4 @@ USER todo
 
 EXPOSE 4000
 
-ENTRYPOINT ["python","index.py"]
+ENTRYPOINT ["python", "-u","index.py"]

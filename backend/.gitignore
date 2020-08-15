@@ -214,3 +214,7 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 output.log
+backend/modules/app/__pycache__/
+backend/modules/app/controllers/__pycache__/
+backend/modules/app/schemas/__pycache__/
+backend/modules/logger/__pycache__/
