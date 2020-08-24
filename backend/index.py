@@ -18,7 +18,7 @@ LOG = logger.get_root_logger(os.environ.get(
     'ROOT_LOGGER', 'root'), filename=os.path.join(ROOT_PATH, 'output.log'))
 
 # Port variable to run the server on.
-PORT = os.environ.get('PORT')
+PORT = 4000 #os.environ.get('PORT')
 
 
 @app.errorhandler(404)
