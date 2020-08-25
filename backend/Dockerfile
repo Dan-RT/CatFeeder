@@ -1,6 +1,7 @@
-FROM python:3.6.5
+FROM python:2.7
 
-WORKDIR /usr/src/app
+ADD . /app
+WORKDIR /app
 
 COPY requirements.txt requirements.txt
 
