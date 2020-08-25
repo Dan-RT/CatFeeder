@@ -28,7 +28,7 @@ class JSONEncoder(json.JSONEncoder):
 # create the flask object
 app = Flask(__name__)
 CORS(app)
-app.config['MONGO_URI'] = "mongodb://27017/todoDev "#os.environ.get('DB')
+app.config['MONGO_URI'] = "mongodb://27017/todoDev" #os.environ.get('DB')
 app.config['JWT_SECRET_KEY'] = "to-do-app-secret" #os.environ.get('SECRET')
 app.config['JWT_ACCESS_TOKEN_EXPIRES'] = datetime.timedelta(days=1)
 app.config['CORS_HEADERS'] = 'Content-Type'

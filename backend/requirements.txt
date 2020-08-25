@@ -6,3 +6,4 @@ flask_pymongo>=0.5.1
 Flask_JWT_Extended>=3.7.2
 Flask_Bcrypt>=0.7.1
 jsonschema>=2.5.1
+RPi.GPIO>=0.7.0
